@@ -62,7 +62,9 @@ h1 img {
     margin: 5px;
 }
 
-
+#vejleder{
+    margin-right: 15px;
+}
     
 }
 
@@ -102,6 +104,16 @@ main h2 {
     padding-top: 26px;
     margin-left: 41.5px;
     margin-right: 41.5px;
+}
+
+
+#scroll-container{
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 40px;
+    
 }
 
 .input {
