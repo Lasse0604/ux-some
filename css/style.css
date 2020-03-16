@@ -121,6 +121,15 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
+select {
+     width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 #school {}
 
 #class {}
@@ -170,7 +179,7 @@ footer {
     margin-top: 50px;
 }
 
-a #link {
+#link {
     color: #F0F0F1;
     margin-left: auto;
     margin-right: auto;
