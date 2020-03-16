@@ -42,7 +42,7 @@ header {
 }*/
 
 #h1-box {
-    width: 90%;
+    width: 40%;
 }
 
 h1 img {
@@ -67,7 +67,7 @@ h1 img {
 }
 
 #small-logo {
-    width: 40%;
+    max-width: 20%;
 }
 header h3 {
     position: absolute;
