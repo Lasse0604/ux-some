@@ -35,6 +35,35 @@ header {
 -----------------------------------------------------------------------------*/
 main {}
 
+.input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fname {
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#school {
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#class {
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subject {
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
