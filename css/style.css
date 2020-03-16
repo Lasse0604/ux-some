@@ -99,7 +99,14 @@ main h2 {
     padding-bottom: 5%;
 }
 
-#fname {}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 #school {}
 
