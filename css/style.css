@@ -75,6 +75,7 @@ main {
     margin-right: auto;
 }
 main h2 {
+    font-size: 2em;
     
 }
 
@@ -84,10 +85,10 @@ main h2 {
 }
 
 .arrows{
-    max-height: 16px;
-    padding-top: 13px;
-    margin-left: 5px;
-    margin-right: 5px;
+    max-height: 32px;
+    padding-top: 26px;
+    margin-left: 41.5px;
+    margin-right: 41.5px;
 }
 
 .input {
@@ -122,13 +123,14 @@ main h2 {
     text-align: center;
     border-radius: 15px;
     max-width: 220px;
-    background-color: rgba(230, 245, 245, 0.2); 
+    background-color: rgba(230, 245, 245, 0.2);
+    padding-bottom: 5px;
     
     
 }
 .days h2 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2.4em;
 }
 .days a div p {
     font-size: 1.2em;
