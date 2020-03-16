@@ -84,18 +84,35 @@ main {
 
 #subject {}
 
+.days {
+    margin-top: 50px;
+}
+.days a {
+    text-decoration: none;
+    color: #20141C;
+}
+.days a div {
+    margin: 0 auto;
+    border: 1px solid;
+    margin-bottom: 2%;
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
 
 
 
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
-
+    
     height: auto;
     background: #5CABAC;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
 
 a #link {
