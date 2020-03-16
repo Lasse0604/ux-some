@@ -27,8 +27,33 @@ body {
 -----------------------------------------------------------------------------*/
 header {
     height: auto;
-    background: #FFE680;
 }
+
+#header-flex {
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+
+#h1-box {
+    width: 90%;
+}
+
+h1 img {
+    width: 60%;
+}
+
+#lan-box {
+    display: flex;
+    border: 2px solid black;
+}
+
+#lan-box p {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 
 
 /* Middle
@@ -50,6 +75,6 @@ footer {
 
 @media only screen and (min-width: 1000px) {
     header {
-        background-color: aqua;
+        background-color: ;
     }
 }
