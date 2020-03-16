@@ -70,10 +70,16 @@ main {}
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
+    
     height: auto;
-    background: #BFF08E;
+    background: #5CABAC;
 }
 
+a {
+    color: #F0F0F1;
+    text-align: center;
+    text-decoration: none;
+}
 
 /* Devices___________________________________________________________________*/
 
