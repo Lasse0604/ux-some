@@ -14,7 +14,9 @@ summary {
 }
 
 body {
-    font: 12px/18px Arial, sans-serif;
+    font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #wrapper {
@@ -27,6 +29,9 @@ body {
 -----------------------------------------------------------------------------*/
 header {
     height: auto;
+    font-family: liberation-serif, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #header-flex {
@@ -71,23 +76,13 @@ main {
     padding-bottom: 5%;
 }
 
-#fname {
- 
-}
+#fname {}
 
-#school {
-    
-  
-}
+#school {}
 
-#class {
-  
-}
+#class {}
 
-#subject {
-    
- 
-}
+#subject {}
 
 
 
@@ -95,7 +90,7 @@ main {
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
-    
+
     height: auto;
     background: #5CABAC;
     margin: 0 auto;
@@ -112,7 +107,7 @@ a {
 }
 
 #weblink {
-     justify-content: center;
+    justify-content: center;
 }
 
 /* Devices___________________________________________________________________*/
