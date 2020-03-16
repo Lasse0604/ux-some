@@ -78,6 +78,14 @@ main h2 {
     
 }
 
+#week-number{
+    display: flex;
+}
+
+.arrows{
+    max-width: 30px;
+}
+
 .input {
     max-width: 188px;
     justify-content: center;
