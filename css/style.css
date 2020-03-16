@@ -100,7 +100,7 @@ footer {
     background: #5CABAC;
 }
 
-a {
+a #link{
     color: #F0F0F1;
     margin-left: auto;
     margin-right: auto;
@@ -110,6 +110,7 @@ a {
 
 #weblink {
      justify-content: center;
+    padding-bottom: 5%;
 }
 
 /* Devices___________________________________________________________________*/
