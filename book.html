@@ -31,17 +31,19 @@
        
         <div id="monday" class="days">
             <h2>Mandag 16/3</h2>
-            <button>08:30 - 09:00</button>
-            <div id="modal" class="modal">
-                <div class="modal-header">
-                    <div class="title">Book tid</div>
-                    <button class="close-button">&times;</button>
-                </div>
-                <div class="modal-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, qui fugit impedit quas minus? Aut accusantium, laborum adipisci, perspiciatis magni quis sapiente nam, eveniet quaerat quae nisi quod exercitationem reprehenderit?
-                </div>
-                </div>
-                <div class="overlay"></div>
+            <button data-modal-target="#modal">08:30 - 09:00</button>
+            <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Example Modal</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+                
                 
             <button>09:10 - 09:40</button>
             <button>09:50 - 10:20</button>
@@ -102,6 +104,8 @@
             <a href="eaaa.dk" id="link">Eaaa.dk</a>
         </div>
     </footer>
+    
+    <script src="js/script.js"></script>
 </body>
 
 </html>
