@@ -62,7 +62,6 @@ h1 img {
     margin: 5px;
 }
 #lan-box p a {
-    
     color: black;
 }
 
@@ -70,7 +69,6 @@ h1 img {
     margin-right: 15px;
 }
 
-}
 
 #small-logo {
     max-width: 20%;
@@ -227,6 +225,7 @@ select {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    margin-left: 15%;
 }
 
 /* Footer
