@@ -118,6 +118,10 @@ main h2 {
 
 }
 
+.heading-one{
+    font-size: 1.5em;
+}
+
 .input {
     max-width: 188px;
     justify-content: center;
