@@ -9,10 +9,3 @@ if(document.getElementById("educationinput").selectedIndex == multimediedesigner
     alert("test");
 }
 
-
-/*
-document.getElementById("educationinput").onchange = function() {
-    
-    thebutton.href = 'book.html/"+this.value+"/';
-    
-}*/

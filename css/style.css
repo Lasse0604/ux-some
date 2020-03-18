@@ -246,6 +246,29 @@ select {
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.16);
 }
 
+
+
+.modal-content{
+    background-color: rgba(230, 245, 245); 
+}
+
+#flexnation{
+    display: flex;
+    
+}
+
+#flexnation button{
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.modal-title{
+    justify-content: center;
+}
+
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
