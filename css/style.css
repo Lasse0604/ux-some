@@ -105,10 +105,9 @@ main h2 {
 }
 
 .arrows {
-    max-height: 32px;
-    padding-top: 26px;
-    margin-left: 41.5px;
-    margin-right: 41.5px;
+    max-height: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 
@@ -263,9 +262,30 @@ select {
     margin-right: 10%;
     border-radius: 30px;
     background-color: white;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
+.modal-title{
+   margin-left: auto;
+    margin-right: auto;
+    
+}
 
+.inner-text{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 1.3em;
+    
+}
+.modal-content{
+    margin-top: 70%;
+    
+}
+.close{
+    opacity: 1;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
