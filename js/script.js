@@ -49,4 +49,4 @@ document.getElementById("educationinput").onchange = function() {
     document.getElementById("thebutton").href = 'http://book.html/"+this.value+"/';
     
 }
-//>>>>>>> e0d44a31dcb031c0400fa78d0e1905057b3d962f
+>>>>>>> e0d44a31dcb031c0400fa78d0e1905057b3d962f
