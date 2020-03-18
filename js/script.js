@@ -1,60 +1,10 @@
-let thebutton = document.getElementById("thebutton");
-
-thebutton.addEventListener("click", function(){
-    window.location.href = "book.html";
-});
-
-
-
-//dropdown
-
-function changeClass() {
-    let selectHTML = "";
-
-    let A = ["E19-a", "E19-b", "E19-c", "E19-e", "E19-x"];
-    let B = ["Under construction"];
-
-    if (document.getElementById("educationinput").value == "multimediedesigner") {
-        let select = document.getElementById('classname').options.length;
-
-        for (let i = 0; i < select; i++) {
-            document.getElementById('classname').options.remove(i);
-        }
-
-        for (let i = 0; i < A.length; i++) {
-            let newSelect = document.createElement('option');
-            selectHTML = "<option value='" + A[i] + "'>" + A[i] + "</option>";
-            newSelect.innerHTML = selectHTML;
-            document.getElementById('classname').add(newSelect);
-        }
-    }
-
-    else if (document.getElementById("educationinput").value == "default") {
-        let select = document.getElementById('classname').options.length;
-
-        for (let i = 0; i < select; i++) {
-            document.getElementById('classname').options.remove(i);
-        }
-
-        for (let i = 0; i < B.length; i++) {
-            let newSelect = document.createElement('option');
-            selectHTML = "<option value='" + B[i] + "'>" + B[i] + "</option>";
-            newSelect.innerHTML = selectHTML;
-            document.getElementById('category').add(newSelect);
-        }
-    }
-
-}
-    
-}
-
-const buttonOne = document.getElementById("button1");
-const buttonTwo = document.getElementById("button2");
-const buttonThree = document.getElementById("button3");
-const buttonFour = document.getElementById("button4");
-const buttonFive = document.getElementById("button5");
-const buttonSix = document.getElementById("button6");
-const buttonSeven = document.getElementById("button7");
+let buttonOne = document.getElementById("button1");
+let buttonTwo = document.getElementById("button2");
+let buttonThree = document.getElementById("button3");
+let buttonFour = document.getElementById("button4");
+let buttonFive = document.getElementById("button5");
+let buttonSix = document.getElementById("button6");
+let buttonSeven = document.getElementById("button7");
 
 let scheduleOne = document.getElementById("schedule1");
 let scheduleTwo = document.getElementById("schedule2");
@@ -64,8 +14,53 @@ let scheduleFive = document.getElementById("schedule5");
 let scheduleSix = document.getElementById("schedule6");
 let scheduleSeven = document.getElementById("schedule7");
 
-buttonOne.addEventListener("click", changeBackgroundColor);
+buttonOne.addEventListener("click", changeBackgroundColorOne);
 
-function changeBackgroundColor() {
-    scheduleOne.classList = "red";
-}
+function changeBackgroundColorOne() {
+    scheduleOne.style.backgroundColor = "#C5393E";
+    scheduleOne.style.color = "white";
+};
+
+buttonTwo.addEventListener("click", changeBackgroundColorTwo);
+
+function changeBackgroundColorTwo() {
+    scheduleTwo.style.backgroundColor = "#C5393E";
+    scheduleTwo.style.color = "white";
+};
+
+buttonThree.addEventListener("click", changeBackgroundColorThree);
+
+function changeBackgroundColorThree() {
+    scheduleThree.style.backgroundColor = "#C5393E";
+    scheduleThree.style.color = "white";
+};
+
+buttonFour.addEventListener("click", changeBackgroundColorFour);
+
+function changeBackgroundColorFour() {
+    scheduleFour.style.backgroundColor = "#C5393E";
+    scheduleFour.style.color = "white";
+};
+
+buttonFive.addEventListener("click", changeBackgroundColorFive);
+
+function changeBackgroundColorFive() {
+    scheduleFive.style.backgroundColor = "#C5393E";
+    scheduleFive.style.color = "white";
+};
+
+buttonSix.addEventListener("click", changeBackgroundColorSix);
+
+function changeBackgroundColorSix() {
+    scheduleSix.style.backgroundColor = "#C5393E";
+    scheduleSix.style.color = "white";
+};
+
+buttonSeven.addEventListener("click", changeBackgroundColorSeven);
+
+function changeBackgroundColorSeven() {
+    scheduleSeven.style.backgroundColor = "#C5393E";
+    scheduleSeven.style.color = "white";
+};
+
+

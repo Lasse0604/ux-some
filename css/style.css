@@ -126,7 +126,7 @@ main h2 {
 }
 
 .input {
-    max-width: 188px;
+    max-width: 65%;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -230,12 +230,14 @@ select {
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
     cursor: pointer;
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10%;
+    width: 50%;
+    display: block;
+    
 }
 
 input {
@@ -291,7 +293,24 @@ select {
 .day-heading{
     padding-bottom: 20px;
 }
+#educationinput {
+    background-color: white;
+}
+#classname {
+    background-color: white;
+}
 
+#tuesday {
+    margin-top: 0;
+}
+
+#gobackplz {
+    margin: 0;
+}
+
+#okaybutton {
+    background-color: white;
+}
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
@@ -301,7 +320,8 @@ footer {
     margin: 0 auto;
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    height: 100px;
 }
 
 #link {
@@ -314,13 +334,16 @@ footer {
 }
 
 #weblink {
-
     justify-content: center;
     justify-content: center;
     padding-bottom: 5%;
+    margin-top: 20px;
 
 }
-
+#link {
+    color: white;
+    margin-top: 20px;
+}
 /* Devices___________________________________________________________________*/
 
 @media only screen and (min-width: 1000px) {
