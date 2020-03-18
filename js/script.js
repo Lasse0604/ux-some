@@ -22,3 +22,17 @@ const buttonFour = document.getElementById("button4");
 const buttonFive = document.getElementById("button5");
 const buttonSix = document.getElementById("button6");
 const buttonSeven = document.getElementById("button7");
+
+let scheduleOne = document.getElementById("schedule1");
+let scheduleTwo = document.getElementById("schedule2");
+let scheduleThree = document.getElementById("schedule3");
+let scheduleFour = document.getElementById("schedule4");
+let scheduleFive = document.getElementById("schedule5");
+let scheduleSix = document.getElementById("schedule6");
+let scheduleSeven = document.getElementById("schedule7");
+
+buttonOne.addEventListener("click", changeBackgroundColor);
+
+function changeBackgroundColor() {
+    scheduleOne.classList = "red";
+}

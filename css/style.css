@@ -109,8 +109,9 @@ main h2 {
     margin-left: 35px;
     margin-right: 35px;
 }
-
-
+.red {
+    background-color: red;
+}
 #scroll-container {
     max-width: 10%;
     margin-left: auto;
