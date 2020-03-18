@@ -6,12 +6,45 @@ thebutton.addEventListener("click", function(){
 
 
 
+//dropdown
 
+function changeClass() {
+    let selectHTML = "";
 
+    let A = ["E19-a", "E19-b", "E19-c", "E19-e", "E19-x"];
+    let B = ["Under construction"];
 
-document.getElementById("educationinput").onchange = function() {
-    
-    document.getElementById("thebutton").href = 'http://book.html/"+this.value+"/';
+    if (document.getElementById("educationinput").value == "multimediedesigner") {
+        let select = document.getElementById('classname').options.length;
+
+        for (let i = 0; i < select; i++) {
+            document.getElementById('classname').options.remove(i);
+        }
+
+        for (let i = 0; i < A.length; i++) {
+            let newSelect = document.createElement('option');
+            selectHTML = "<option value='" + A[i] + "'>" + A[i] + "</option>";
+            newSelect.innerHTML = selectHTML;
+            document.getElementById('classname').add(newSelect);
+        }
+    }
+
+    else if (document.getElementById("educationinput").value == "default") {
+        let select = document.getElementById('classname').options.length;
+
+        for (let i = 0; i < select; i++) {
+            document.getElementById('classname').options.remove(i);
+        }
+
+        for (let i = 0; i < B.length; i++) {
+            let newSelect = document.createElement('option');
+            selectHTML = "<option value='" + B[i] + "'>" + B[i] + "</option>";
+            newSelect.innerHTML = selectHTML;
+            document.getElementById('category').add(newSelect);
+        }
+    }
+
+}
     
 }
 
