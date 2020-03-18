@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="lasse madsen" />
     <meta name="description" content="template" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="css/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ekv7lld.css">
     <link rel="stylesheet" href="https://use.typekit.net/ekv7lld.css">
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -21,43 +23,157 @@
         <h3 id="vejleder">Vejleder: Dorthe Hedevang</h3>
     </header>
     <main>
-      
-      <div id="week-number">
-          <img class="arrows" src="images/Arrow.png" alt="arrow">
-          <h2>Uge 12</h2>
-          <img class="arrows" src="images/Arrow-1.png" alt="">
-      </div>
-      
-       
+
+        <div id="week-number">
+            <img class="arrows" src="images/Arrow.png" alt="arrow">
+            <h2>Uge 12</h2>
+            <img class="arrows" src="images/Arrow-1.png" alt="">
+        </div>
+
+
         <div id="monday" class="days">
             <h2>Mandag 16/3</h2>
-            <button data-modal-target="#modal">08:30 - 09:00</button>
-            <div class="modal" id="modal">
-    <div class="modal-header">
-      <div class="title">Example Modal</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
-    </div>
-  </div>
-  <div id="overlay"></div>
+            <button data-toggle="modal" data-target="#mymodal">08:30 - 09:00</button>
+            <div class="modal" id="mymodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>08:30-09:00</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button data-toggle="modal" data-target="#mymodal1">09:10 - 09:40</button>
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>09:10-09:40</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                
-                
-            <button>09:10 - 09:40</button>
             <button>09:50 - 10:20</button>
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>09:10-09:40</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button>10:30 - 11:00</button>
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>09:10-09:40</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button>12:00 - 12:30</button>
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>09:10-09:40</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button>12:40 - 13:10</button>
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>09:10-09:40</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button>13:20 - 13:50</button>
+            <div class="modal" id="mymodal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Book tid?</h2>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mandag 16/3</h3>
+                            <h3>09:10-09:40</h3>
+                            <div id="flexnation">
+                                <button>Ja</button>
+                                <button>Nej</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-        
+
         <div id="scroll-container">
             <img src="images/down-arrow.svg" alt="Arrow-down" class="pulsate-bck">
         </div>
-        
+
         <div id="tuesday" class="days">
             <h2>Tirsdag 17/3</h2>
             <button>08:30 - 09:00</button>
@@ -104,7 +220,9 @@
             <a href="eaaa.dk" id="link">Eaaa.dk</a>
         </div>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 

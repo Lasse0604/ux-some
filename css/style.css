@@ -61,6 +61,7 @@ h1 img {
 #lan-box p {
     margin: 5px;
 }
+
 #lan-box p a {
     color: black;
 }
@@ -71,7 +72,7 @@ h1 img {
 
 
 #small-logo {
-    max-width: 20%;
+    max-width: 60%;
 }
 
 header h3 {
@@ -120,7 +121,7 @@ main h2 {
 
 }
 
-.heading-one{
+.heading-one {
     font-size: 1.5em;
 }
 
@@ -183,7 +184,7 @@ select {
     font-style: normal;
     margin-left: 20%;
     border-color: #707070;
-    box-shadow: 2px 5px 5px #707070;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.16);
 
 
 }
@@ -197,67 +198,6 @@ select {
     font-size: 1.2em;
 }
 
-
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
-  z-index: 10;
-  background-color: white;
-  width: 500px;
-  max-width: 80%;
-}
-
-.modal.active {
-  transform: translate(-50%, -50%) scale(1);
-}
-
-.modal-header {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
-}
-
-.modal-header .title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.modal-header .close-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.modal-body {
-  padding: 10px 15px;
-}
-
-#overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  pointer-events: none;
-}
-
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
 
 .pulsate-bck {
     -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
@@ -282,7 +222,7 @@ select {
 }
 
 #thebutton {
-    background-color: #E6F5F5;
+    background-color: rgba(230, 245, 245, 0.2);
     border: 1px solid;
     border-radius: 15px;
     color: black;
@@ -295,6 +235,15 @@ select {
     margin: 4px 2px;
     cursor: pointer;
     margin-left: 15%;
+    margin-top: 10%;
+}
+
+input {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.16);
+}
+
+select {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.16);
 }
 
 /* Footer
