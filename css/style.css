@@ -254,10 +254,18 @@ select {
 
 #flexnation{
     display: flex;
-    margin: 0;
+    
 }
 
 #flexnation button{
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.modal-title{
     justify-content: center;
 }
 
