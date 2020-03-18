@@ -4,8 +4,7 @@ thebutton.addEventListener("click", function(){
     window.location.href = "book.html";
 });
 
-<<<<<<< HEAD
-=======
+
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
@@ -49,4 +48,4 @@ document.getElementById("educationinput").onchange = function() {
     document.getElementById("thebutton").href = 'http://book.html/"+this.value+"/';
     
 }
->>>>>>> e0d44a31dcb031c0400fa78d0e1905057b3d962f
+
