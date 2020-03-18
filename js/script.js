@@ -40,3 +40,10 @@ function closeModal(modal) {
   modal.classList.remove('active')
   overlay.classList.remove('active')
 }
+
+
+document.getElementById("educationinput").onchange = function() {
+    
+    document.getElementById("thebutton").href = 'http://book.html/"+this.value+"/';
+    
+}
