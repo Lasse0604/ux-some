@@ -68,7 +68,7 @@ function changeBackgroundColorSeven() {
 let classByCategory = {
     A: ["E19-a", "E19-b", "E19-c", "E19-e", "E19-x"],
     B: ["No options"],
-};
+}
 
     function changecat(value) {
         if (value.length == 0) document.getElementById("category").innerHTML = "<option></option>";
@@ -80,5 +80,32 @@ let classByCategory = {
             document.getElementById("category").innerHTML = catOptions;
         }
     };
+
+
+
+const backToTopBtn = document.querySelector("#back-to-top-btn");
+
+
+backToTopBtn.addEventListener("click", backToTop);
+
+function backToTop(){
+    window.scroll(0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
