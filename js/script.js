@@ -79,4 +79,4 @@ let classByCategory = {
             }
             document.getElementById("category").innerHTML = catOptions;
         }
-    }
+    };
