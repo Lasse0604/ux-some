@@ -95,7 +95,7 @@ section h2 {
 }
 
 main h2 {
-    font-size: 2em;
+    font-size: 1.8em;
 
 }
 
@@ -127,6 +127,8 @@ main h2 {
     margin-bottom: 100px;
 }
 
+
+
 .input {
     max-width: 65%;
     justify-content: center;
@@ -154,11 +156,27 @@ select {
     box-sizing: border-box;
 }
 
-#school {}
+#fname {
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
 
-#class {}
+#school {
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
 
-#subject {}
+#class {
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 10%;}
+
+#subject {
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 10%;}
 
 .days {
     margin-top: 50px;
@@ -256,12 +274,12 @@ select {
     background-color: rgba(230, 245, 245); 
 }
 
-#flexnation{
+.flexnation{
     display: flex;
     
 }
 
-#flexnation button{
+.flexnation button{
     margin: 0;
     margin-left: 10%;
     margin-right: 10%;
