@@ -82,7 +82,6 @@ let classByCategory = {
     };
 
 
-
 const backToTopBtn = document.querySelector("#back-to-top-btn");
 
 
@@ -91,20 +90,6 @@ backToTopBtn.addEventListener("click", backToTop);
 function backToTop(){
     window.scroll(0, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
