@@ -123,7 +123,23 @@ function backToTop(){
     });
 }
 
+const getVejlederElement = document.getElementById("getVejleder");
 
+getVejlederElement.addEventListener("click",getVejleder);
+
+function getVejleder(){
+    fetch('https://api.myjson.com/bins/137f0s')
+    .then((res) => res.json())
+    .then((data) => {
+        let output = '';        
+        data.forEach(function(vejleder){
+            output += `
+             <h3 id="vejleder>Vejleder: ${vejleder.vejlederA}</h3>
+            `;
+        })
+        document.getElementById('output').innerHTML = output;
+    })
+}
 
 
 
