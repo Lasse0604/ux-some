@@ -122,6 +122,15 @@ main h2 {
 
 }
 
+#scroll-container1 {
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 40px;
+
+}
+
 .heading-one {
     font-size: 1.5em;
     margin-bottom: 100px;

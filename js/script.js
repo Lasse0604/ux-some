@@ -83,6 +83,29 @@ let classByCategory = {
 
 
 const backToTopBtn = document.querySelector("#back-to-top-btn");
+const downArrow = document.querySelector("#down-arrow");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction(){
+    if (window.pageYOffset < 2010){
+        downArrow.style.display = "block";
+    }
+    else{
+        downArrow.style.display = "none";
+    }
+}
+
+window.addEventListener("scroll", scrollUpFunction);
+
+function scrollUpFunction(){
+    if (window.pageYOffset > 2010){
+        backToTopBtn.style.display = "block";
+    }
+    else{
+        backToTopBtn.style.display = "none";
+    }
+}
 
 
 backToTopBtn.addEventListener("click", backToTop);
@@ -99,6 +122,9 @@ function backToTop(){
         behavior: "smooth"
     });
 }
+
+
+
 
 
 
