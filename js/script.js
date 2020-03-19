@@ -82,27 +82,3 @@ let classByCategory = {
     };
 
 
-function (){
-    fetch('json/vejleder.json')
-    .then((response) => {
-        return response.json();
-    })
-    
-}
-
-
-/*
-function getCounselor() {
-    fetch('json/vejleder.json')
-    .then((res) => res.json() )
-    .then((data) => {
-        
-        let output = '<h3 id="vejleder">Vejleder: </h3>'
-        data.forEach(function(vejleder){
-            output +=`
-            <h3 id="vejleder"> ${vejleder.Vejleder-1}</h3>`;
-                
-        })
-        document.getElementById("output").innerHTML = output;
-    })
-}
