@@ -312,6 +312,11 @@ select {
 #okaybutton {
     background-color: white;
 }
+
+#back-to-top-btn {
+    border: 0px;
+    background-color: white;
+}
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
@@ -326,7 +331,7 @@ footer {
 }
 
 #link {
-    color: #F0F0F1;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
