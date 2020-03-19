@@ -108,6 +108,7 @@ main h2 {
     max-height: 30px;
     margin-left: 35px;
     margin-right: 35px;
+    padding-top: 5px;
 }
 .red {
     background-color: red;
@@ -340,10 +341,7 @@ footer {
     margin-top: 20px;
 
 }
-#link {
-    color: white;
-    margin-top: 20px;
-}
+
 /* Devices___________________________________________________________________*/
 
 @media only screen and (min-width: 1000px) {
