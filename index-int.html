@@ -49,28 +49,32 @@
                         <label for="education" class="heading-one">
                             Education
                         </label>
-                        <select id="educationinput" name="education" onchange="changeClass();">
-                            <option value="">Choose</option>
+                        <select name="education" id="educationinput" onChange="changecat(this.value);">
+                            <option value="">Select</option>
 
-                            <option value="default">Chemical and Biotechnical Science</option>
 
-                            <option value="default">Chemical and Biotechnical Technology and Food Technology</option>
+                            <option value="B">Chemical and Biotechnical Science</option>
 
-                            <option value="default">Digital Concept Development</option>
 
-                            <option value="default">Financial Management and Services</option>
+                            <option value="B">Chemical and Biotechnical Technology and Food Technology</option>
 
-                            <option value="default">Innovation and Entrepreneurship</option>
 
-                            <option value="default">It Technology</option>
+                            <option value="B">Digital Concept Development</option>
 
-                            <option value="default">Marketing Management</option>
 
-                            <option value="default">Multimedia Design</option>
+                            <option value="B">Financial Management and Services</option>
 
-                            <option value="default">Product Development and Integrative Technology</option>
+                            <option value="B">Innovation and Entrepreneurship</option>
 
-                            <option value="default">Web Development</option>
+                            <option value="B">It Technology</option>
+
+                            <option value="B">Marketing Management</option>
+
+                            <option value="A">Multimedia Design</option>
+
+                            <option value="B">Product Development and Integrative Technology</option>
+
+                            <option value="B">Web Development</option>
 
                         </select>
                     </div>
@@ -78,15 +82,31 @@
                         <label for="class" class="heading-one">
                             Class
                         </label>
-                        <select name="classname" id="classname">
-                            <option value="">Choose</option>
+                        <select name="category" id="category">
+                            <option value="">Select</option>
                         </select>
                     </div>
                     <div id="subject">
                         <label for="fname" class="heading-one">
                             Subject
                         </label>
-                        <input type="text" id="subjectinput" name="subject">
+                        <select id="subjectinput" name="subject">
+                            <option value="">Select</option>
+
+                            <option value="studievalg">Choise of education (specialisation, top-up, study abroard)</option>
+
+                            <option value="eksamen">Exams</option>
+
+                            <option value="karriere">Career counseling</option>
+
+                            <option value="praktik">Internship</option>
+
+                            <option value="trivsel">Well-being</option>
+
+                            <option value="udfordringer">Personal challenges</option>
+
+                            <option value="andet">Other</option>
+                        </select>
                     </div>
                     <a id="thebutton" href="book-int.html">Booking</a>
                 </section>
@@ -101,7 +121,8 @@
 
     </div><!-- .wrapper -->
 
-    <script src="js/script.js"></script><!-- .script -->
+    <script src="js/script.js"></script>
+    <script src="js/drop.js"></script><!-- .script -->
 </body>
 
 </html>

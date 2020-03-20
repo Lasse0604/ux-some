@@ -133,7 +133,8 @@ main h2 {
 
 .heading-one {
     font-size: 1.5em;
-    margin-bottom: 100px;
+    padding-bottom: 3%;
+    display: block;
 }
 
 
@@ -164,7 +165,6 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 
 #fname {
     margin: 0;
@@ -323,12 +323,11 @@ select {
 .day-heading{
     padding-bottom: 20px;
 }
-#educationinput {
+#educationinput, #subjectinput, #category {
     background-color: white;
 }
-#category {
-    background-color: white;
-}
+
+
 
 #tuesday {
     margin-top: 0;
@@ -370,7 +369,6 @@ footer {
 }
 
 #weblink {
-    justify-content: center;
     justify-content: center;
     margin-top: 8%;
     display: inline-block;
