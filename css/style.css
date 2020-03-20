@@ -165,6 +165,7 @@ select {
     box-sizing: border-box;
 }
 
+
 #fname {
     margin: 0;
     margin-bottom: 5%;
@@ -211,7 +212,7 @@ select {
     font-family: din-2014, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 20%;
+    margin-left: 23%;
     border-color: #707070;
     box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.16);
 
@@ -270,11 +271,11 @@ select {
 }
 
 input {
-    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.16);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.16);
 }
 
 select {
-    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.16);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -325,7 +326,7 @@ select {
 #educationinput {
     background-color: white;
 }
-#classname {
+#category {
     background-color: white;
 }
 
