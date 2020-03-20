@@ -82,7 +82,7 @@ function scrollFunction(){
 
 window.addEventListener("scroll", scrollUpFunction);
 
-function scrollUpFunction(){
+function scrollUpFunction() {
     if (window.pageYOffset > 2010){
         backToTopBtn.style.display = "block";
     }
