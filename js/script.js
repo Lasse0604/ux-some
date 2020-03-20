@@ -107,18 +107,22 @@ function backToTop(){
     });
 }
 
+/*
 const getVejlederElement = document.getElementById("getVejleder");
 
 getVejlederElement.addEventListener("click",getVejleder);
+*/
 
 function getVejleder(){
-    fetch('https://api.myjson.com/bins/137f0s')
+    fetch('https://api.myjson.com/bins/16co6k')
     .then((res) => res.json())
     .then((data) => {
-        let output = '';        
-        data.forEach(function(vejleder){
+        console.log(data);
+        
+        let output = '';  
+        data.forEach(function(answer){
             output += `
-             <h3 id="vejleder>Vejleder: ${vejleder.vejlederA}</h3>
+             <h3 id="vejleder">Vejleder: ${answer.vejlederA}</h3>
             `;
         })
         document.getElementById('output').innerHTML = output;
