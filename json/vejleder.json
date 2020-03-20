@@ -1,17 +1,17 @@
 [
 {
-        "Vejleder-1": "Dorthe Hedevang",
+        "vejlederA":"Dorthe Hedevang"
 },
 
 {
-        "Vejleder-2": "Jens Bach Nielsen",
+        "vejlederB":"Jens Bach Nielsen"
 },
 
     {
-        "Vejleder-3": "Kurt Rasmussen",
+        "vejlederC":"Kurt Rasmussen"
 },
 
 {
-        "Vejleder-4": "Trine-Maria Frederiksen",
+        "vejlederD":"Trine-Maria Frederiksen"
 }
 ]

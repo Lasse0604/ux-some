@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-    <title>template</title>
+    <title>Studie- og karrierevejledning</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="lasse madsen" />
-    <meta name="description" content="template" />
+    <meta name="keywords" content="Studievejledning, Karrierevejledning, Studie- og karrierevejledning, Eaaa, Eaaa studievejledning, hjælp til eksamen, Karriere muligheder, Trivsel, Eksamensangst" />
+    <meta name="description" content="Eaaa studie- og karrierevejledning" />
     <link href="css/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ekv7lld.css">
     <link rel="stylesheet" href="https://use.typekit.net/ekv7lld.css">
@@ -119,7 +119,23 @@
                         <label for="fname" class="heading-one">
                             Emne
                         </label>
-                        <input type="text" id="subjectinput" name="subject">
+                        <select id="subjectinput" name="subject">
+                        <option value="">Vælg</option>
+
+                            <option value="studievalg">Studievalg (specialicering, top-up, study abroard)</option>
+
+                            <option value="eksamen">Eksamen</option>
+
+                            <option value="karriere">Karriererådgivning</option>
+
+                            <option value="praktik">Praktik</option>
+
+                            <option value="trivsel">Trivsel</option>
+
+                            <option value="udfordringer">Personlige udfordringer</option>
+
+                            <option value="andet">Andet</option>
+                        </select>
                     </div>
                     <a id="thebutton" href="book.html">Book tid</a>
                 </section>
@@ -134,7 +150,8 @@
 
     </div><!-- .wrapper -->
 
-    <script src="js/script.js"></script><!-- .script -->
+    <script src="js/script.js"></script>
+    <script src="js/drop.js"></script><!-- .script -->
 </body>
 
 </html>

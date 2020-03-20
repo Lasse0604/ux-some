@@ -65,22 +65,6 @@ function changeBackgroundColorSeven() {
 
 
 
-let classByCategory = {
-    A: ["E19-a", "E19-b", "E19-c", "E19-e", "E19-x"],
-    B: ["No options"],
-}
-
-    function changecat(value) {
-        if (value.length == 0) document.getElementById("category").innerHTML = "<option></option>";
-        else {
-            let catOptions = "";
-            for (categoryId in classByCategory[value]) {
-                catOptions += "<option>" + classByCategory[value][categoryId] + "</option>";
-            }
-            document.getElementById("category").innerHTML = catOptions;
-        }
-    };
-
 
 const backToTopBtn = document.querySelector("#back-to-top-btn");
 const downArrow = document.querySelector("#down-arrow");
@@ -98,7 +82,7 @@ function scrollFunction(){
 
 window.addEventListener("scroll", scrollUpFunction);
 
-function scrollUpFunction(){
+function scrollUpFunction() {
     if (window.pageYOffset > 2010){
         backToTopBtn.style.display = "block";
     }
@@ -123,7 +107,27 @@ function backToTop(){
     });
 }
 
+/*
+const getVejlederElement = document.getElementById("getVejleder");
 
+getVejlederElement.addEventListener("click",getVejleder);
+*/
+
+function getVejleder(){
+    fetch('https://api.myjson.com/bins/16co6k')
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data);
+        
+        let output = '';  
+        data.forEach(function(answer){
+            output += `
+             <h3 id="vejleder">Vejleder: ${answer.vejlederA}</h3>
+            `;
+        })
+        document.getElementById('output').innerHTML = output;
+    })
+}
 
 
 

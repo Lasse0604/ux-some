@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <title>Book en tid</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="lasse madsen" />
-    <meta name="description" content="template" />
+    <meta name="keywords" content="Book tid Studie- og karrierevejledning, book tid, Eaaa book tid, Eaaa" />
+    <meta name="description" content="Book tid til Studie- og karrierevejledning" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="css/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ekv7lld.css">
@@ -15,13 +15,14 @@
 
 </head>
 
-<body>
+<body onLoad="getVejleder();">
     <header>
         <div id="h1-box">
             <h1><img src="images/eaaa-small-logo.png" alt="EAAA small logo" id="small-logo"></h1>
         </div>
+         <!--<button id="getVejleder" class="btn btn-warning mr-4">Get API Data</button> -->
         <div id="output">
-        <h3 id="vejleder">Vejleder: Dorthe Hedevang</h3>
+      
         </div>
     </header>
     <main>
@@ -198,10 +199,8 @@
             </div>
         </div>
         <div id="scroll-container">
-            <button id="down-arrow"><img src="images/down-arrow.svg" alt="Arrow-down" class="pulsate-bck"></button>
-        </div>
-        <div id="scroll-container1">
-            <button id="back-to-top-btn"><img src="images/up-arrow.svg" alt="Arrow-down" class="pulsate-bck"></button>
+            <div id="down-arrow"><img src="images/down-arrow.svg" alt="Arrow-down" class="pulsate-bck"></div>
+            <div id="back-to-top-btn"><img src="images/up-arrow.svg" alt="Arrow-down" class="pulsate-bck"></div>
         </div>
         
         <div id="tuesday" class="days">
