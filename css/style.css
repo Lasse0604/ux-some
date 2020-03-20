@@ -364,14 +364,15 @@ footer {
     margin-right: auto;
     text-decoration: none;
     padding: 2%;
-    font-size: 1.2em;
+    font-size: 1.6em;
+    margin-top: auto;
 }
 
 #weblink {
     justify-content: center;
     justify-content: center;
-    padding-bottom: 5%;
-    margin-top: 20px;
+    margin-top: 8%;
+    display: inline-block;
 
 }
 
